@@ -1,0 +1,7 @@
+REST_FRAMEWORK = {
+    'PAGINATE_BY': 100,
+    'DEFAULT_RENDERER_CLASSES': (
+        'rest_framework.renderers.JSONRenderer',
+        'path.to.this.class.BrowsableAPIRendererWithoutForms',
+    ),
+}
